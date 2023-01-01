@@ -1,0 +1,31 @@
+
+.Home {
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    margin-top: 22vh;
+}
+
+.intro1 h1 {
+    text-align: left;
+    margin: 0 0 10px;
+    font-size: clamp(40px, 8vw, 70px);
+
+}
+
+.intro1 h2 {
+    text-align: left;
+    font-size: clamp(30px, 5vw, 50px);
+}
+
+.social {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5vh;
+    width: 65%;
+    padding: 0%;
+}
+
+.social svg {
+    margin-left: 1.9rem;
+}
