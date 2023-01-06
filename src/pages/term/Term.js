@@ -17,11 +17,11 @@ function Term() {
 
                 <ul style={{listStyle: 'none'}}>
                     <li>
-                        <a href="/term/workterm/tulip">Work Term I : Tulip Retail</a>
+                        <a href="./term/tulip">Work Term I : Tulip Retail</a>
                     </li>
                     <br />
                     <li>
-                        <a href="/term/workterm/comingSoon">Work Term II : Place Holder</a>
+                        <a href="./workterm/comingSoon">Work Term II : Place Holder</a>
                     </li>
                 </ul>
 

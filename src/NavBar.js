@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import Term from './pages/term/Term';
 import Home from './pages/Home';
-import Tulip from './pages/term/workterm/Tulip';
+import Tulip from './pages/term/Tulip';
 
 function NavBar() {
     return (
@@ -30,7 +30,7 @@ function NavBar() {
         <Routes>
             <Route path="/" element={<Home />}></Route>        
                     <Route path="/term" element={<Term />}></Route>
-                    <Route path="/term/workterm/tulip" element={<Tulip />}></Route>
+                    <Route path="/term/tulip" element={<Tulip />}></Route>
         </Routes></>
             
         </BrowserRouter>
