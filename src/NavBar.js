@@ -7,10 +7,11 @@ import {
     Routes,
     BrowserRouter
 } from "react-router-dom";
-import Term from './pages/Term'
-import Home from './pages/Home'
+import Term from './pages/term/Term';
+import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Project from './pages/Project';
+import Tulip from './pages/term/workterm/Tulip';
 
 function NavBar() {
     return (
@@ -21,8 +22,6 @@ function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
-                        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                         <Nav.Link as={Link} to="/term">Term</Nav.Link>
                         
                     </Nav>
@@ -33,8 +32,7 @@ function NavBar() {
         <Routes>
             <Route path="/" element={<Home />}></Route>        
                     <Route path="/term" element={<Term />}></Route>
-                    <Route path="/projects" element={<Project />}></Route>
-            <Route path="/experience" element={<Experience />}></Route>
+                    <Route path="/term/workterm/tulip" element={<Tulip />}></Route>
         </Routes></>
             
         </BrowserRouter>

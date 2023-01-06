@@ -1,11 +1,11 @@
-header {
+/* header {
     padding-top: 2rem;
     padding-bottom: 4rem;
     
     /* border-bottom: 1px solid black;
     margin: 0 auto;
-        width: 80%; */
-}
+        width: 80%; 
+} */
 
 section{
     display: grid;
@@ -16,12 +16,8 @@ section{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
-}
-
-.container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    max-width: 42rem;
+    padding: 1.625rem 1.3125rem;
 }
 
 .exp-column1 {
@@ -50,11 +46,5 @@ section{
     font-size: 1em;
     color: #6c757d;
   
-}
-
-li{
-    font-family: Helvetica, sans-serif;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
