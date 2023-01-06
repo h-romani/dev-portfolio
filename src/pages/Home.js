@@ -1,7 +1,4 @@
 import './Home.css';
-import { FaLinkedin } from "react-icons/fa";
-import { VscMail } from "react-icons/vsc";
-import { BsGithub } from "react-icons/bs";
 import resume from "./resume/Hasen_Resume_SE_2023.pdf";
 
 function Home() {
@@ -18,10 +15,7 @@ function Home() {
             </div>
 
             <div className='social'>
-                    
-                {/* <FaLinkedin size={"3.1em"}/> 
-                <BsGithub size={"3.1em"} />
-                <VscMail size={"3.1em"} /> */}
+
             </div>
 
         </div>
