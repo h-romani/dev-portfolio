@@ -9,8 +9,6 @@ import {
 } from "react-router-dom";
 import Term from './pages/term/Term';
 import Home from './pages/Home';
-import Experience from './pages/Experience';
-import Project from './pages/Project';
 import Tulip from './pages/term/workterm/Tulip';
 
 function NavBar() {
